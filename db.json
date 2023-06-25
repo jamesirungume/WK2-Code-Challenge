@@ -2,43 +2,43 @@
   "myAnimals": [
     {
       "id": 1,
-      "name": "dog",
+      "name": "DOG",
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/ASHH5bDmsp6wnK6mEfZdcU-970-80.jpg.webp",
-      "description": "The lion is a large felid of the Panthera genus.",
-      "donations": 0
+      "description": "The dog is a humble animal and a good companoion to humans and are mostly used as pets at hoeme areas and besides keeping humans company they have other unique helping capabilities to humans ",
+      "vote": 0
     },
     {
       "id": 2,
-      "name": "zebra",
+      "name": "ZEBRA",
       "imageUrl": "https://img-aws.ehowcdn.com/877x500p/photos.demandstudios.com/getty/article/190/192/153717005.jpg?type=webp",
-      "description": "The elephant is the largest land animal.",
-      "donations": 0
+      "description": " The Zebra is a colourful animal and this causes it to attract many humans around the world and it unlike the dog its found in forest areas  .",
+      "vote": 0
     },
     {
       "id": 3,
-      "name": "Cheetah",
+      "name": "CHEETAH",
       "imageUrl": "https://s.yimg.com/ny/api/res/1.2/fcJxQCXRbwwYW52fpaZXeQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY1OA--/https://media.zenfs.com/en_us/News/Reuters/2014-10-02T184906Z_526623319_TM3EAA2150V01_RTRMADP_3_SCIENCE-CHEETAH.JPG",
-      "description": "The giraffe is known for its long neck and legs.",
-      "donations": 0
+      "description": "The cheetah is a very cool animal and is widely known for its amazing speed in the forest on hunting and it is one of the fastest animals in the jungle .",
+      "vote": 0
     },
     {
       "id": 4,
-      "name": "Girrafe",
+      "name": "GIRAFFE",
       "imageUrl": "https://c4.wallpaperflare.com/wallpaper/766/119/813/giraffe-cool-pictures-wallpaper-preview.jpg",
-      "description": "The tiger is the largest cat species.",
-      "donations": 0
+      "description": "The giraffe is known for its long neck and legs making it a very unique animal in the world as his living way of life is also diffrent  for example the way it feeds and live with each other",
+      "vote": 0
     },
     {
       "id": 5,
-      "name": "tiger",
+      "name": "TIGER",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Standing_white_tiger.jpg/1200px-Standing_white_tiger.jpg",
-      "description": "The penguin is a flightless bird adapted to life in the water.",
-      "donations": 0
+      "description": "The tiger is another very cool animal that is known for its hunting methods in the woods the way it catches ts prey witth its sharp nails and teeth is just awesome.",
+       "vote": 0
     },
     {
-      "title": "Third Article",
+      "title": "THIRDARTILCE",
       "content": "Another example!",
-      "id": 6
+      "vote": 6
     }
   ]
 }
