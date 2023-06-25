@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script defer src="index.js"></script>
 </head>
 <body id ="giga">
     <div>
-        <label for="button"></label>
-        <button class = "votebuttons">vote </button>
-
+        
+        <button class = "votebuttons" data-animal="DOG" >vote for a dog </button>
+        <button class = "votebuttons" data-animal="ZEBRA">vote for a zebra </button>
+        <button class = "votebuttons" data-animal="CHEETAH">vote for a cheetah</button>
+        <button class = "votebuttons" data-animal="GIRAFFE">vote  for a giraffe</button>
+        <button class = "votebuttons" data-animal="TIGER">vote for a tiger</button>
+    </div>
+    <div >
+        <button id = "resetme">RESET</button>
     </div>
     <div id = "animalname"></div>
     <p id = "animalcontent"></p>
