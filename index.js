@@ -29,30 +29,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     resetMybutton.addEventListener("click", () => {
-      fetch("http://localhost:3000/myAnimals")
-        .then(resp => resp.json())
-        .then(myAnimals => {
-          myAnimals.forEach(myAnimal => {
-            myAnimal.vote = 0;
-          });
-    
-          return fetch("http://localhost:3000/myAnimals", {
-            method: 'PUT',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(myAnimals)
-          });
-        })
-        .then(resp => resp.json())
-        .then(responseData => {
-          // Handle the response if needed
-          console.log(responseData);
-        })
-        .catch(error => {
-          console.log(error);
-        });
+      myAnimals.forEach(myAnimal => {
+        myAnimal.vote = 0;
+      });
+      displayAnimal(myAnimals[0]); 
     });
+   
     
 
   function displayAnimal(myAnimal) {
