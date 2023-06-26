@@ -18,13 +18,13 @@ document.addEventListener('DOMContentLoaded', () => {
       
       voteButtons.forEach(button => {
         button.addEventListener("click", (event) => {
-          event.preventDefault(); 
+          event.preventDefault(); // Prevent the default form submission behavior
           const animalName = button.dataset.animal;
           const animal = myAnimals.find(a => a.name === animalName);
           if (animal) {
             animal.vote++;
             displayAnimal(animal);
-            updateVotesOnServer(myAnimals); 
+            updateVotesOnServer(myAnimals); // Update votes on the server
           }
         });
       });
@@ -37,8 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
         myAnimals.forEach(myAnimal => {
           myAnimal.vote = 0;
         });
+        updateVotesOnServer(myAnimals); // Update votes on the server
         displayAnimal(myAnimals[0]);
-        updateVotesOnServer(myAnimals); 
       });
   });
 
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <h1>${myAnimal.name}</h1>
       <h1>${myAnimal.description}</h1>
       <img src="${myAnimal.imageUrl}" alt="james">
-      <p>votes: ${myAnimal.vote}</p>
+      <h1 id = "love" > votes: ${myAnimal.vote}</h1>
     `;
   }
 

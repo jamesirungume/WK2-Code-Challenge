@@ -9,3 +9,10 @@
     color: blue;
     background-color: red;
 }
+#love{
+    position: absolute;
+    left: 1500px;
+    top: 500px;
+    font-size: xx-large;
+    color: aquamarine;
+}
