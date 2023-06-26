@@ -37,19 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
         myAnimals.forEach(myAnimal => {
           myAnimal.vote = 0;
         });
-        updateVotesOnServer(myAnimals); // Update votes on the server
         displayAnimal(myAnimals[0]);
+        updateVotesOnServer(myAnimals); // Update votes on the server
       });
   });
-
-  function displayAnimal(myAnimal) {
-    animalContent.innerHTML = `
-      <h1>${myAnimal.name}</h1>
-      <h1>${myAnimal.description}</h1>
-      <img src="${myAnimal.imageUrl}" alt="james">
-      <h1 id = "love" > votes: ${myAnimal.vote}</h1>
-    `;
-  }
 
   function updateVotesOnServer(myAnimals) {
     fetch("http://localhost:3000/myAnimals", {
@@ -64,6 +55,18 @@ document.addEventListener('DOMContentLoaded', () => {
         // Handle the response if needed
         console.log(responseData);
       });
+  }
+
+  function displayAnimal(myAnimal) {
+    animalContent.innerHTML = `
+    
+      <h1> * ${myAnimal.name}</h1>
+      <h1> ${myAnimal.description}.</h1>
+      <div id = 'learn'>
+      <img src="${myAnimal.imageUrl}" alt="james">
+      <h1 id = "love" > votes: ${myAnimal.vote}</h1>
+      </div>
+    `;
   }
 
   const colour = document.querySelector("#giga");

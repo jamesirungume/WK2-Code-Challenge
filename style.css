@@ -15,4 +15,10 @@
     top: 500px;
     font-size: xx-large;
     color: aquamarine;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+#learn{
+    background-color: black;
 }
